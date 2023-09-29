@@ -1,0 +1,25 @@
+
+button{
+    color: #940394;
+    background-image: linear-gradient(to top right, #690069, #380038);
+    border: 4px solid;
+    border-image: linear-gradient(to top right, #910091, #ff03ff ) 1;
+    border-radius: 15px;
+    margin: 50%;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 1s;
+    
+}
+
+button:hover{
+    background-image:  linear-gradient(to top right, #410041, #000000);
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+button:focus{
+    border: 3px solid #ff53ff;
+}
